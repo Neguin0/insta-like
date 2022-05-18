@@ -3,7 +3,7 @@ const fs = require('fs');
 const cookies = require('./cookies.json');
 
 // Executa a função de start com os argumentos de usuario e senha
-start('neguin.x.x', '123456');
+start('usuario', '123456');
 
 async function openBrowser() {
 	// Abre o navegador
